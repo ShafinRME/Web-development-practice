@@ -12,7 +12,7 @@ body{
     font-weight: 700;
 }
 .section-1 p{
-    font-weight: 500;
+    font-weight: 100;
     font-size: 20px;
     margin-bottom: 50px;
 }
@@ -125,4 +125,23 @@ body{
 }
 .s3-third div{
     margin: 20px 50px;
+}
+footer{
+    text-align: center;
+    background-color: #0B0D17;
+    height: 256px;
+    padding-top: 100px;
+}
+footer h1{
+    margin-bottom: 40px;
+}
+.f-1{
+    color:#FB974B;
+}
+.f-2{
+    color: #5B5B5B;
+}
+footer p{
+    color: white;
+    font-weight: 100;
 }
