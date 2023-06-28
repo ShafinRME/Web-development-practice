@@ -80,3 +80,49 @@ body{
     padding-left: 80px;
     margin-right: 70px;
 }
+.section-3 h1{
+    font-size: 35px;
+}
+.s3-first{
+    text-align: center;
+    margin: 30px 300px;
+}
+.s3-second{
+    display: flex;
+    margin-bottom: 80px;
+}
+.s3-second1{
+    width: 40%;
+    border-radius: 30px;
+    border: 5px solid white;
+    margin-left: 67px;
+    padding: 20px;
+    box-shadow:  0px 0px 30px 0px rgba(0, 0, 0, 0.5);
+}
+.s3-second2{
+    width: 40%;
+    border: 5px solid white;
+    margin-left: 40px;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow:  0px 0px 30px 0px rgba(0, 0, 0, 0.5);
+}
+.s3-second1 img{
+    width: 100%;
+    border-radius: 30px;
+}
+.s3-second2 img{
+    width: 100%;
+    border-radius: 30px;
+}
+.s3-third{
+    display: flex;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow:  0px 0px 30px 0px rgba(0, 0, 0, 0.5);
+    margin: 0px 63px 50px 63px;
+    padding-left: 230px;
+}
+.s3-third div{
+    margin: 20px 50px;
+}
