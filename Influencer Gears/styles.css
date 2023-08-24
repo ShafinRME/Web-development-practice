@@ -8,7 +8,7 @@ body{
     align-items: center;
     margin-top: 50px;
 }
-h1{
+.first-section h1{
     margin-left: 100px;
     font-size: 24px;
 }
@@ -21,3 +21,42 @@ h1{
     font-size: 16px;
     margin-left: 500px;
 }
+.second-section{
+    display: flex;
+}
+.second-section h1{
+    font-size: 52px;
+}
+.s2-first{
+    width: 50%;
+    margin-left: 100px;
+}
+.s2-first p{
+    font-size: 16px;
+}
+.s2-second{
+    width: 50%;
+    padding-left: 90px;
+    margin-right: 20px;
+}
+button{
+    background-color: #E02C6D;
+    height: 44px;
+    width:196px;
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 10px 24px;
+    color: #FFF;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.third-section{
+    margin: 100px ;
+}
+.advertisement{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(7,1fr);
+    height: 105px;
+}
+
