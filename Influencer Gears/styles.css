@@ -59,4 +59,23 @@ button{
     grid-template-columns: repeat(7,1fr);
     height: 105px;
 }
-
+.fourth-section h1{
+    display: flex;
+    justify-content: center;
+}
+.s4-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 0px 90px;
+}
+.s4-collection div{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+.s4-collection div img{
+    margin-left: 15px;
+    margin-top: 15px;
+}
