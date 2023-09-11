@@ -79,3 +79,16 @@ button{
     margin-left: 15px;
     margin-top: 15px;
 }
+.more-arrow{
+    margin-left: 1130px;
+}
+.more-arrow i{
+    margin-left: 8px;
+}
+.fifth-section{
+    display: flex;
+    margin: 130px 70px;
+}
+.fifth-section div{
+    padding: 10px 40px;
+}
