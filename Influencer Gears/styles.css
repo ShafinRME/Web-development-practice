@@ -92,3 +92,18 @@ button{
 .fifth-section div{
     padding: 10px 40px;
 }
+footer{
+    background-color: #0A0826;
+    color: white;
+    text-align: center;
+    height: 240px;
+    padding-top: 30px;
+    margin: -8px;
+}
+.footer-details p{
+    font-size: 12px;
+}
+.footer-icons i{
+    padding-top: 20px;
+    padding-right: 16px;
+}
