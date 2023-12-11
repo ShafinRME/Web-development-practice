@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 33" width="32" height="33">
+	<title>Ellipse 157-svg</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-32,0,0,-32,32,16.141)">
+			<stop offset="0" stop-color="#ff0000"/>
+			<stop offset="1" stop-color="#ff8938"/>
+		</linearGradient>
+		<image width="18" height="18" id="img1" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHZpZXdCb3g9IjAgMCAxOCAxOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9IkZyYW1lIDQxNDAiPgo8cGF0aCBpZD0iVmVjdG9yIiBkPSJNNi45MTQwNiAzLjkyNDMyTDEyLjEzMTUgOS4xNDE3MUw2LjkxNDA2IDE0LjM1OTEiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9nPgo8L3N2Zz4K"/>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+	</style>
+	<path id="Ellipse 157" class="s0" d="m16 32.1c-8.8 0-16-7.1-16-16 0-8.8 7.2-16 16-16 8.8 0 16 7.2 16 16 0 8.9-7.2 16-16 16z"/>
+	<use id="Frame 4140" href="#img1" transform="matrix(1,0,0,1,7,7)"/>
+</svg>
