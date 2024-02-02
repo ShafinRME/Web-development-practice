@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Discount</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <section class="text-left grid justify-center bg-neutral-700 w-2/3 mx-auto mt-10 h-96 pb-10 pt-10 rounded-xl">
+        <h1 class="text-amber-400 text-4xl font-bold">Offer Offer Offer!!! 30% OFF </h1>
+        <h3 class="text-white text-2xl font-bold">Price : $<span id="main-price">1000</span> </h3>
+        <h3 class="text-white text-2xl font-bold">Coupon Code <input class="text-black font-semibold rounded"
+                type="text" name="" id="coupon-code"> </h3>
+        <button class="bg-rose-600 hover:bg-cyan-600 w-32 text-xl text-white rounded-lg font-bold mb-2"
+            id="coupon-button">Apply</button>
+        <h3 class="text-white text-2xl font-bold">Please pay : $<span id="discount-price">00</span> </h3>
+        <button class="bg-rose-600 hover:bg-cyan-600 w-32 text-xl text-white rounded-lg font-bold">Pay</button>
+    </section>
+
+
+
+    <!-- Javascript file is attached below -->
+    <script src="/js/coupon.js"></script>
+
+</body>
+
+</html>
