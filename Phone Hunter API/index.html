@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Hunter</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/e2c8ba4cbf.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-zinc-100">
+
+    <section class="ms-20 me-20 bg-zinc-100">
+        <!-- Navbar Design End -->
+
+        <div class="navbar bg-base-500 pt-10">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                </div>
+                <a class="btn btn-success text-xl">Hot Gadgets</a>
+            </div>
+            <div class="navbar-end ">
+                <button class="btn btn-outline btn-accent">Sign Up</button>
+            </div>
+        </div>
+
+        <!-- Intro Section -->
+
+        <div class="text-center">
+            <h1 class="text-5xl font-bold mb-6 text-slate-950">Apple Iphone 13 Pro Max</h1>
+            <p class="text-slate-900 mb-6">Looking for a hassle-free way to upgrade your phone or sell your old one?
+                Welcome to Hot Gadgets, your
+                go-to
+                destination for seamless phone buying and selling. Whether you're eyeing the latest model or looking to
+                offload your current device, we've got you covered with a user-friendly platform designed to make the
+                process smooth and rewarding. With competitive prices, secure transactions, and a wide selection of
+                devices,
+                Hot Gadgets is your trusted partner in the world of phone commerce.</p>
+
+            <button class="btn btn-info mb-10">Buy Now</button>
+        </div>
+
+    </section>
+
+    <section class="ms-20 me-20">
+        <div class="flex justify-center ">
+            <img src="/images/Group 48095420.png" alt="">
+        </div>
+    </section>
+
+    <section class="ms-20 me-20">
+        <div class="grid items-center justify-center w-full">
+            <h2 class="text-4xl font-bold text-black text-center">Search your phone</h2> <br>
+            <div class="flex mb-12">
+                <input type="text" placeholder="  Search Your Phone"
+                    class="input input-bordered rounded-lg w-96 bg-slate-50 text-slate-900 " id="search-button" />
+                <button onclick="handleSearch()" class="btn btn-info mb-10">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="loading-spinner" class="text-center my-10 hidden">
+        <span class="loading loading-spinner text-success "></span>
+    </section>
+
+    <!-- Phones Display Part -->
+
+    <section class="container mx-auto ms-12 pb-12">
+        <div id="phone-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+
+        </div>
+
+        <div class="mx-auto w-24 hidden mt-10" id="show-all-button">
+            <button onclick="showAllButton()" class="btn btn-success mb-10 mx-auto">Show All</button>
+        </div>
+    </section>
+
+
+    <section class="text-center my-10 pb-10">
+        <!-- Open the modal using ID.showModal() method -->
+        <dialog id="show_details" class="modal modal-bottom sm:modal-middle">
+            <div class="modal-box">
+            </div>
+        </dialog>
+    </section>
+
+    <footer>
+        <div class="grid grid-cols-2 ms-64 me-32 pb-32">
+            <div class="text-black">
+                <h1 class="text-5xl font-bold mb-6">Hot Gadgets</h1>
+                <p>You can definitely work.</p>
+            </div>
+            <div class="ms-16">
+                <i class="fa-brands fa-square-facebook me-4 text-4xl"></i>
+                <i class="fa-brands fa-square-twitter me-4 text-4xl"></i>
+                <i class="fa-brands fa-square-instagram text-4xl"></i>
+                <button class="btn btn-info mb-10 ms-10">Join Premium</button>
+            </div>
+        </div>
+
+        <div class="flex mx-auto border w-2/3 border-black mb-8">
+        </div>
+
+        <div class="ms-52 grid grid-cols-4 gap-2 pb-10 text-black">
+            <div>
+                <p>Products</p>
+                <p>Browse Jobs</p>
+                <p>Remote Jobs</p>
+                <p>Startup Jobs</p>
+                <p>Company Jobs</p>
+            </div>
+            <div>
+                <p>Popular</p>
+                <p>UIUX Design</p>
+                <p>Product Design</p>
+                <p>Back-End Developer</p>
+                <p>Front-End Developer</p>
+            </div>
+            <div>
+                <p>Resource</p>
+                <p>FAQ</p>
+                <p>Support</p>
+                <p>Privacy Policy</p>
+                <p>Terms of Service</p>
+            </div>
+            <div>
+                <p>Company</p>
+                <p>About Us</p>
+                <p>Contact Us</p>
+                <p>Career Tips</p>
+                <p>Careers</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/phonehunterAPI.js"></script>
+
+</body>
+
+</html>
